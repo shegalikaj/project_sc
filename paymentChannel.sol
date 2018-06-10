@@ -13,7 +13,7 @@ contract PaymentChannel
         require(msg.sender == owner, "only owner can create channel");
             _;
     }
-    function createChannel(address _recipient )payable onlyOwner()
+    function createChannel(address _recipient )payable onlyOwner
     {           require(msg.value > 0);
                 recipient = _recipient; 
                 deposit = msg.value;
