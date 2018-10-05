@@ -1,0 +1,9 @@
+[submodule "openzeppelin-solidity"]
+	path = openzeppelin-solidity
+	url = https://github.com/OpenZeppelin/openzeppelin-solidity.git
+[submodule "test/openzeppelin-solidity"]
+	path = test/openzeppelin-solidity
+	url = https://github.com/OpenZeppelin/openzeppelin-solidity.git
+[submodule "test/project-1"]
+	path = test/project-1
+	url = https://github.com/shegalikaj/project-1.git
